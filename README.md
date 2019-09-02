@@ -1,6 +1,6 @@
 # Flare and Ignition docs
 
-This repository contains the content of [the documentation section of the Flare website](https://flareapp.io/docs). Free free to PR improvements.
+This repository contains the content of [the documentation section of the Flare website](https://flareapp.io/docs). Free free to PR improvements and typo fixes.
 
 ## Contributing
 
