@@ -25,7 +25,7 @@ interface HasSolutionsForThrowable
  
 When an error occurs in your app, the class will receive the `Throwable` in the `canSolve` method. In that method you can decide if your solution provider is applicable to the `Throwable` passed. If you return `true`, `getSolutions` will get called. 
  
-Here is an example from [the Ignition package](/docs/flare-for-laravel/introduction) codebase:
+Here is an example from [the Ignition package](/docs/ignition-for-laravel/introduction) codebase:
  
 ```php
 use Throwable;

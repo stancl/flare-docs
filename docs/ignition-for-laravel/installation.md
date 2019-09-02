@@ -33,7 +33,7 @@ This will publish two files: `config/ignition.php` and `config/flare.php`.
 
 ## Sending errors to Flare
 
-If you want to send errors to Flare, you must specify a valid API key in the `key` variable of the config file or as your `FLARE_KEY` environment variable. You can get an API key when [creating a new project](/docs/general/projects) or by visiting the [project settings screen](/docs/general/configuring-projects) for an existing project.
+If you want to send errors to Flare, you must specify a valid API key in the `key` variable of the config file or as your `FLARE_KEY` environment variable. You can get an API key when [creating a new project](/docs/general/projects) or by visiting the project settings screen for an existing project.
 
 The package uses Laravel's logging system to send errors. You must configure your log stack to use the `flare` channel.
 
