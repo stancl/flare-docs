@@ -66,16 +66,16 @@ use Illuminate\Support\ServiceProvider;
 class YourServiceProvider extends ServiceProvider
 {
     /**
-     * Register services.
+     * boot services.
      *
      * @return void
      */
-    public function register(SolutionProviderRepository $solutionProviderRepository)
+    public function boot()
     {
-        $solutionProviderRepository->registerSolutionProvider(GenerateAppKeySolution::class);
+        $this->app->make(SolutionProviderRepository::class)->registerSolutionProvider(GenerateAppKeySolution::class);
 
         // alternatively you can register multiple solution providers at once
-        $solutionProviderRepository->registerSolutionProviders([
+        $this->app->make(SolutionProviderRepository::class)->registerSolutionProviders([
             MySolution::class,
             AnotherSolution::class,
         ]);
