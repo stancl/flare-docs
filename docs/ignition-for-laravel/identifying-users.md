@@ -11,7 +11,7 @@ class User extends Model {
     //
 
    public function toFlare(): array {
-      // Only `id` will be sent sent to Flare.
+      // Only `id` will be sent to Flare.
       return [
          'id' => $this->id
       ];
