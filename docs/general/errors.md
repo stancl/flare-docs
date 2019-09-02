@@ -2,7 +2,7 @@
 title: Working with errors
 ---
 
-Whenever an error gets reported by your application, we show it on the projects page. If you want to know more about the error, click on it to see [more details about the last occurrence](/docs/general/working-with-error-occurrences).
+Whenever an error gets reported by your application, we show it on the projects page. If you want to know more about the error, click on it to see [more details about the last occurrence](/docs/general/sharing-error-occurrences).
 
 ![Screenshot of project screen showing list of errors](/images/docs/error-list.png)
 
