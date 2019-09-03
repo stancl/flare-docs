@@ -13,17 +13,9 @@ You can choose between `phpstorm`, `vscode`, `vscode-insiders`, `sublime`, and `
 ## Remote Development Server Support
 To allow the edit URL to be created properly, you should specify the following variables in your `.env` file. Leave these empty if you are developing locally and are serving your site from the same filesystem you are editing on.
 
-### IGNITION_REMOTE_SITES_PATH
-Specify the full path (not URL) to your projects or sites folder on your remote dev server, be this Homestead, Docker, or in the cloud. For example:
-```
-IGNITION_REMOTE_SITES_PATH="/home/vagrant/Sites"
-```
+In the `remote_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder on your remote dev server, be this Homestead, Docker, or in the cloud .
 
-### IGNITION_LOCAL_SITES_PATH
-Specify the full path (not URL) to your projects or sites folder as it resides on your local machine, the way your IDE or editor accesses the. For example:
-```
-IGNITION_LOCAL_SITES_PATH="/Users/me/Developer/Sites"
-```
+In the `local_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder as it resides on your local machine, the way your IDE or editor accesses the files.
 
 ## Theme support
 
