@@ -10,13 +10,6 @@ On a typical error screen paths to source file names are displayed. Next to the 
 
 You can choose between `phpstorm`, `vscode`, `vscode-insiders`, `sublime`, and `atom`.
 
-## Remote Development Server Support
-To allow the edit URL to be created properly, you should specify the following variables in your `.env` file. Leave these empty if you are developing locally and are serving your site from the same filesystem you are editing on.
-
-In the `remote_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder on your remote dev server, be this Homestead, Docker, or in the cloud .
-
-In the `local_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder as it resides on your local machine, the way your IDE or editor accesses the files.
-
 ## Theme support
 
 You can configure a theme in the `theme` key of the `ignition` config file. Out of the box there are two beautiful themes supported.
@@ -27,4 +20,14 @@ You can configure a theme in the `theme` key of the `ignition` config file. Out 
 
 `dark`
 
-//TODO: add screenshot of dark theme
+![Screenshot of dark ignition theme](/images/docs/dark-mode.png)
+
+You can also specify `auto`. Ignition will then follow the preference set for your OS.
+
+
+## Remote Development Server Support
+To allow the edit URL to be created properly, you should specify the following variables in your `.env` file. Leave these empty if you are developing locally and are serving your site from the same filesystem you are editing on.
+
+In the `remote_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder on your remote dev server, be this Homestead, Docker, or in the cloud .
+
+In the `local_sites_path` config key, you can specify the full path (not URL) to your projects or sites folder as it resides on your local machine, the way your IDE or editor accesses the files.
