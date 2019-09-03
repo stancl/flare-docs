@@ -11,6 +11,7 @@ To add a glow to your application, you can use the `Facade\FlareClient\Flare` cl
 
 ```php
 use Facade\Ignition\Facades\Flare;
+use Facade\FlareClient\Enums\MessageLevels;
 
-Flare::glow('Tenant', 'My-Tenant-Identifier');
+Flare::glow('This is a message from glow!', MessageLevels::DEBUG, func_get_args());
 ```
