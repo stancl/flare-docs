@@ -1,5 +1,5 @@
 ---
-title: First party extensions
+title: Third party extensions
 ---
 
 The community has created several nice packages that add functionality to Ignition.
