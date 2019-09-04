@@ -18,7 +18,7 @@ protected function whoopsHandler()
     try {
         return app(\Whoops\Handler\HandlerInterface::class);
     } catch (\Illuminate\Contracts\Container\BindingResolutionException $e) {
-        return (new \Illuminate\Foundation\Exceptions\WhoopsHandler)->forDebug();
+        return parent::whoopsHandler();
     }
 }
 ```
