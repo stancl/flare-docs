@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-To install Ignition in your Laravel application, install it as a dependency via composer optional for Laravel 6.0+):
+To install Ignition in your Laravel application, install it as a dependency via composer (optional for Laravel 6.0+):
 
 ```txt
 composer require facade/ignition
